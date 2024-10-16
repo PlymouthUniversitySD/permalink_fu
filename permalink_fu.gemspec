@@ -1,9 +1,13 @@
-Gem::Specification.new do |s|
-  s.name        = "permalink_fu"
-  s.version     = "1.0.0"
-  s.summary     = "For creating URL-friendly permalinks."
-  s.description = "A simple plugin for creating URL-friendly permalinks (slugs) from attributes."
-  s.files       = `git ls-files`.split($\)
-  s.homepage    = "https://github.com/PlymouthUniversitySD/permalink_fu"
-  s.license     = "MIT"
+# encoding: utf-8
+Gem::Specification.new do |gem|
+  gem.authors       = ["Gonçalo Silva"]
+  gem.description   = "see https://github.com/goncalossilva/permalink_fu"
+  gem.summary       = "see https://github.com/goncalossilva/permalink_fu"
+  gem.homepage      = "https://github.com/goncalossilva/permalink_fu"
+
+  gem.files         = `git ls-files`.split($\)
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.name          = "permalink_fu"
+  gem.version       = '1.0.0'
+  gem.license       = 'MIT'
 end
